@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tienda de Guitarras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__contenido">
+        <div class="header__contenedor contenedor">
+          <div class="header__imagenes">
+            <a href="/index.html" class="header__link">
+              <img
+                src="build/img/logo.svg"
+                alt="Imagen Logotipo"
+                class="header__logo"
+              />
+            </a>
+
+         
+
+            <img
+              src="build/img/menu.png"
+              alt="Icono del menu"
+              class="header__menu"
+            />
+          </div>
+
+          <nav class="navegacion">
+            <a href="/index.html" class="navegacion__link activo">Home</a>
+            <a href="nosotros.html" class="navegacion__link" target="_blank"
+              >Nosotros</a
+            >
+            <a href="tienda.html" class="navegacion__link" target="_blank"
+              >Tienda</a
+            >
+            <a href="blog.html" class="navegacion__link" target="_blank"
+              >Blog</a
+            >
+       
+          </nav>
+        </div>
+      </div>
+    </header>
+
+
+    <section class="pedido contenedor">
+
+        <div class="pedido__articulos">
+            <h2 class="pedido__heading">Carrito</h2>
+
+            <div class="pedido__grid">
+     
+                <div class="pedido__informacion">
+                    
+             
+                    <div class="pedido__imagen">
+                        <h2 class="pedido__articulo">Articulo</h2>
+                        <img src="build/img/guitarra1.avif" alt="Imagen Guitar" class="pedido__img">
+
+
+                    </div>
+                    <div class="pedido__descripcion">
+                        <h2 class="pedido__modelo">Borland</h2>
+                        <h2 class="pedido__cantidad">Cantidad</h2>
+                        <form class="pedido__formulario">
+                         
+        
+                            <select  class="pedido__select">
+                                <option value="2" class="pedido__opcion" selected>1</option>
+                                <option value="2" class="pedido__opcion">2</option>
+                                <option value="2" class="pedido__opcion">3</option>
+                                <option value="2" class="pedido__opcion">4</option>
+                                <option value="2" class="pedido__opcion">5</option>
+                                <option value="2" class="pedido__opcion">+5</option>
+        
+                            </select>
+                            <p class="pedido__precio">$390</p>
+    
+                            <p class="pedido__subtotal">Subtotal: <span class="pedido__numero">$390</span></p>
+                         
+        
+               
+                        </form> 
+
+                    </div>
+                   
+
+                 
+                </div>
+                <div class="pedido__resumen">
+                    <h2 class="pedido__resumen">Resumen del Pedido</h2>
+                    <p class="pedido__total">Total a pagar : $ 390</p>
+                    <a href="#" class="pedido__boton boton">Pagar</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+   
+
+    
+
+    <footer class="footer">
+      <div class="footer__contenido contenedor">
+        <nav class="footer__menu">
+          <a href="/index.html" class="footer__link">Home</a>
+          <a href="nosotros.html" class="footer__link" target="_blank"
+            >Nosotros</a
+          >
+          <a href="tienda.html" class="footer__link" target="_blank">Tienda</a>
+          <a href="tienda.html" class="footer__link" target="_blank">Blog</a>
+        </nav>
+
+        <p class="footer__derechos">Todos los derechos reservados 2023</p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="build/js/app.js"></script>
+
+
+   
+  </body>
+</html>

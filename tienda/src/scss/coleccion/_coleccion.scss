@@ -1,0 +1,66 @@
+@use '../base/variables'as v;
+@use '../base/mixins' as m;
+
+.coleccion{
+    margin-top: 9rem;
+    
+
+    &__heading,&__title{
+        text-align: center;
+        font-size: 3rem;
+        color: v.$colorPrincipal;
+        @include m.tablet {
+            font-size: 5rem; 
+            
+         }
+    }
+
+    &__grid{
+        margin-top: 5rem;
+
+        @include m.tablet {
+            display: grid;
+            grid-template-columns: repeat(2,1fr); 
+            gap: 3rem;
+         }
+         @include m.desktop { 
+            grid-template-columns: repeat(3,1fr);
+            
+          }
+    }
+    &__card{
+        display: flex;
+    
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    &__img{
+        width: 15rem;
+    }
+    &__modelo{
+        color: v.$colorPrincipal;
+        font-size: 3rem;
+        text-transform: uppercase;
+    }
+
+    &__txt{
+        font-size: 1.8rem;
+        line-height: 2;
+    }
+
+    &__precio{
+        font-size: 4rem;
+        font-weight: 900;
+        color: v.$colorPrincipal;
+        margin: 3rem 0 5rem 0;
+    }
+
+    &__boton{
+        transition-property: background-color;
+        transition-duration:.5s;
+        &:hover{
+            background-color: v.$colorPrincipal;
+        }
+    }
+}

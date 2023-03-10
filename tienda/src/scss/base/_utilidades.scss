@@ -1,0 +1,40 @@
+@use 'variables'as v;
+@use 'mixins' as m;
+
+.precio{
+    font-weight: 900;
+   
+}
+
+ .abajo{
+    position: fixed;
+    width: 100%;
+    background-color: v.$colorBlanco;
+
+    
+    transition: .7s;
+    z-index: 999;
+} 
+.blanco{
+    background-color: v.$colorPrincipal;
+
+    
+    transition: .7s;
+    padding: 1rem;
+color: v.$colorNegro;
+border-radius: 1rem;
+}
+.ocultar{
+    display: none;
+    @include m.desktop {
+        display: block; 
+        
+     }
+}
+.ocultardos{
+    display: block;
+    @include m.desktop { 
+        display: none;
+     }
+}
+

@@ -1,0 +1,98 @@
+@use '../base/variables' as v;
+@use '../base/mixins' as m;
+
+.pedido{
+
+
+    margin-top: 9rem;
+
+    &__heading{
+        text-align: center;
+        color: v.$colorPrincipal;
+        font-size: 3rem;
+    }
+
+    &__grid{
+
+        @include m.tablet {
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10rem; 
+         }
+    }
+
+    &__articulo{
+        font-size:3rem;
+        font-weight: 700;
+    }
+
+    &__informacion{
+        grid-column: 1 / 3;
+        @include m.tablet { 
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 5rem; 
+            align-items: center;
+            
+         }
+
+      
+    }
+    &__img{
+        height: 50rem;
+    }
+
+    &__modelo{
+        font-size: 4rem;
+        font-weight: 700;
+    }
+    &__cantidad{
+        font-size: 3rem;
+        font-weight: 300;
+    }
+    &__select{
+        width: 100%;
+        padding: 1.5rem 0;
+        text-align: center;
+        font-size: 2rem;
+        font-weight: 700;
+       
+        background-color: transparent;
+    }
+
+    &__opcion{
+        text-align: center;
+    }
+    &__precio{
+        color: v.$colorPrincipal;
+        font-size: 3.5rem;
+        font-weight: 700;
+    }
+    &__subtotal{
+        font-weight: 300;
+        font-size: 2rem;
+    }
+    &__numero{
+        font-size: 3rem;
+         font-weight: 700;
+    }
+    &__resumen{
+        grid-column: 3 / 4;
+        text-align: center;
+    }
+
+    &__resumen{
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+    &__total{
+        font-size: 2.5rem;
+        font-weight: 300;
+    }
+
+    &__boton{
+        display: block;
+     }
+
+}

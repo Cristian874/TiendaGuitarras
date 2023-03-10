@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Tienda de Guitarras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__contenido">
+      <div class="header__contenedor contenedor">
+        <div class="header__imagenes">
+          <a href="/index.html" class="header__link">
+            <img
+              src="build/img/logo.svg"
+              alt="Imagen Logotipo"
+              class="header__logo"
+            />
+          </a>
+
+          <div class="submenu ocultardos">
+            <img
+              src="build/img/carrito.avif"
+              alt="Icono Carrito"
+              class="carrito__img"/>
+
+            <div class="carrito" id="carrito">
+              <div class="carrito__tabla" id="img-carrito">
+                <div class="carrito__opciones">
+                  <div class="carrito__tr">
+                    <li class="carrito__opcion">Imagen</li>
+                    <li class="carrito__opcion">Nombre</li>
+                    <li class="carrito__opcion">Precio</li>
+                  </div>
+                  <div class="carrito__tr carrito__tr--dos">
+                    <li class="carrito__opcion">
+                      <img src="build/img/guitarra1.avif" alt="Iamgen Producto" class="carrito__img">
+                    </li>
+                    <li class="carrito__opcion">Borland</li>
+                    <li class="carrito__opcion">$ 780</li>
+                  </div>
+                </div>
+                <div class="carrito__body"></div>
+                  <a href="carrito.html" id="vaciar-carrito" class="carrito__boton">Pagar Carrito</a> 
+                </div
+              ><!-- carrramos tabla -->
+
+            </div>
+          </div>
+
+          <img
+            src="build/img/menu.png"
+            alt="Icono del menu"
+            class="header__menu"
+          />
+        </div>
+
+        <nav class="navegacion">
+          <a href="/index.html" class="navegacion__link ">Home</a>
+          <a href="nosotros.html" class="navegacion__link" target="_blank"
+            >Nosotros</a
+          >
+          <a href="tienda.html" class="navegacion__link activo" target="_blank"
+            >Tienda</a
+          >
+          <a href="blog.html" class="navegacion__link" target="_blank"
+            >Blog</a
+          >
+          <div class="submenu ocultar">
+              <img
+                src="build/img/carrito.avif"
+                alt="Icono Carrito"
+                class="carrito__img"/>
+
+              <div class="carrito" id="carrito">
+                <div class="carrito__tabla" id="img-carrito">
+                  <div class="carrito__opciones">
+                    <div class="carrito__tr">
+                      <li class="carrito__opcion">Imagen</li>
+                      <li class="carrito__opcion">Nombre</li>
+                      <li class="carrito__opcion">Precio</li>
+                    </div>
+                    <div class="carrito__tr carrito__tr--dos">
+                      <li class="carrito__opcion">
+                        <img src="build/img/guitarra1.avif" alt="Iamgen Producto" class="carrito__img">
+                      </li>
+                      <li class="carrito__opcion">Borland</li>
+                      <li class="carrito__opcion">$ 780</li>
+                    </div>
+                  </div>
+                  <div class="carrito__body"></div>
+                    <a href="carrito.html" id="vaciar-carrito" class="carrito__boton">Pagar Carrito</a> 
+                  </div
+                ><!-- carrramos tabla -->
+
+              </div>
+            </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+    <main class="coleccion contenedor">
+        <h1 class="coleccion__heading">GuitarLA</h1>
+        <H2 class="coleccion__title">Nuestra Colección</H2>
+
+        <div class="coleccion__grid">
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra1.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Townshend</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">350</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra2.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Morello</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">375</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra3.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Borland</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">390</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra4.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Cobain</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">325</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra5.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Dale</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">350</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra6.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Young</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">375</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra7.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Keith</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">290</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra8.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Blackmore</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">450</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra9.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Vai</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">350</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra10.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Clapton</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">350</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra11.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Page</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">200</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+
+            <div class="coleccion__card">
+                <div class="coleccion__imagen">
+                    <img src="build/img/guitarra12.avif" alt="Imagen Guitarra" class="coleccion__img">
+                </div><!-- imagen -->
+                <div class="coleccion__informacion">
+                    <h2 class="coleccion__modelo">Beck</h2>
+                    <p class="coleccion__txt">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit vel inventore dolor? 
+                        Blanditiis at perferendis asperiores nam saepe alias,
+                         libero quia sint nisi laboriosam minima enim rerum expedita. Sed, quia?
+                    </p>
+                    <p class="coleccion__precio">$ <span class="colecccion__numero">390</span></p>
+
+                    <a href="descripcion.html" class="coleccion__boton boton">Ver Producto</a>
+                </div><!-- informacion -->
+            </div><!-- card -->
+
+        </div><!-- grid -->
+    </main>
+
+
+   
+
+    <footer class="footer">
+        <div class="footer__contenido contenedor">
+            <nav class="footer__menu">
+                <a href="/index.html" class="footer__link">Home</a>
+                <a href="nosotros.html" class="footer__link" target="_blank">Nosotros</a>
+                <a href="tienda.html" class="footer__link" target="_blank">Tienda</a>
+                <a href="tienda.html" class="footer__link" target="_blank">Blog</a>
+            </nav>
+
+            <p class="footer__derechos">Todos los derechos reservados 2023</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="build/js/app.js"></script>
+    
+</body>
+</html>

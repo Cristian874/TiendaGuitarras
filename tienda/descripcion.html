@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descripcion - Tienda de Guitarras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="header__contenido">
+      <div class="header__contenedor contenedor">
+        <div class="header__imagenes">
+          <a href="/index.html" class="header__link">
+            <img
+              src="build/img/logo.svg"
+              alt="Imagen Logotipo"
+              class="header__logo"
+            />
+          </a>
+
+          <div class="submenu ocultardos">
+            <img
+              src="build/img/carrito.avif"
+              alt="Icono Carrito"
+              class="carrito__img"/>
+
+            <div class="carrito" id="carrito">
+              <div class="carrito__tabla" id="img-carrito">
+                <div class="carrito__opciones">
+                  <div class="carrito__tr">
+                    <li class="carrito__opcion">Imagen</li>
+                    <li class="carrito__opcion">Nombre</li>
+                    <li class="carrito__opcion">Precio</li>
+                  </div>
+                  <div class="carrito__tr carrito__tr--dos">
+                    <li class="carrito__opcion">
+                      <img src="build/img/guitarra1.avif" alt="Iamgen Producto" class="carrito__img">
+                    </li>
+                    <li class="carrito__opcion">Borland</li>
+                    <li class="carrito__opcion">$ 780</li>
+                  </div>
+                </div>
+                <div class="carrito__body"></div>
+                  <a href="carrito.html" id="vaciar-carrito" class="carrito__boton">Pagar Carrito</a> 
+                </div
+              ><!-- carrramos tabla -->
+
+            </div>
+          </div>
+
+          <img
+            src="build/img/menu.png"
+            alt="Icono del menu"
+            class="header__menu"
+          />
+        </div>
+
+        <nav class="navegacion">
+          <a href="/index.html" class="navegacion__link activo">Home</a>
+          <a href="nosotros.html" class="navegacion__link" target="_blank"
+            >Nosotros</a
+          >
+          <a href="tienda.html" class="navegacion__link" target="_blank"
+            >Tienda</a
+          >
+          <a href="blog.html" class="navegacion__link" target="_blank"
+            >Blog</a
+          >
+          <div class="submenu ocultar">
+              <img
+                src="build/img/carrito.avif"
+                alt="Icono Carrito"
+                class="carrito__img"/>
+
+              <div class="carrito" id="carrito">
+                <div class="carrito__tabla" id="img-carrito">
+                  <div class="carrito__opciones">
+                    <div class="carrito__tr">
+                      <li class="carrito__opcion">Imagen</li>
+                      <li class="carrito__opcion">Nombre</li>
+                      <li class="carrito__opcion">Precio</li>
+                    </div>
+                    <div class="carrito__tr carrito__tr--dos">
+                      <li class="carrito__opcion">
+                        <img src="build/img/guitarra1.avif" alt="Iamgen Producto" class="carrito__img">
+                      </li>
+                      <li class="carrito__opcion">Borland</li>
+                      <li class="carrito__opcion">$ 780</li>
+                    </div>
+                  </div>
+                  <div class="carrito__body"></div>
+                    <a href="carrito.html" id="vaciar-carrito" class="carrito__boton">Pagar Carrito</a> 
+                  </div
+                ><!-- carrramos tabla -->
+
+              </div>
+            </div>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+    <section class="producto contenedor">
+        <div class="producto__grid">
+            <div class="producto__imagen">
+                <img src="build/img/guitarra1.avif" alt="" class="producto__img">
+            </div>
+            <div class="producto__contenido">
+
+                <h2 class="producto__heading">Townshend</h2>
+                <p class="producto__txt">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, quos cum ut repudiandae ullam sapiente incidunt odio fuga aut voluptatum, quas exercitationem excepturi optio! Porro, autem natus? Tenetur, repellat necessitatibus?
+
+                </p>
+                <p class="producto__precio">$ 350</p>
+
+
+                <form class="producto__formulario">
+                    <h2 class="producto__cantidad">Cantidad</h2>
+
+                    <select  class="producto__select">
+                        <option value="1" class="producto__opcion" selected disabled> -- Seleccione --</option>
+                        <option value="2" class="producto__opcion">1</option>
+                        <option value="2" class="producto__opcion">2</option>
+                        <option value="2" class="producto__opcion">3</option>
+                        <option value="2" class="producto__opcion">4</option>
+                        <option value="2" class="producto__opcion">5</option>
+                        <option value="2" class="producto__opcion">+5</option>
+
+                    </select>
+                 
+
+                    <a href="carrito.html"  sr class="producto__boton boton" >Agregar al Carrito</a>
+                </form> 
+
+
+            </div>
+        </div>
+
+    </section>
+
+   
+
+
+
+    <footer class="footer">
+        <div class="footer__contenido contenedor">
+            <nav class="footer__menu">
+                <a href="/index.html" class="footer__link">Home</a>
+                <a href="nosotros.html" class="footer__link" target="_blank">Nosotros</a>
+                <a href="tienda.html" class="footer__link" target="_blank">Tienda</a>
+                <a href="tienda.html" class="footer__link" target="_blank">Blog</a>
+            </nav>
+
+            <p class="footer__derechos">Todos los derechos reservados 2023</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="build/js/app.js"></script>
+    
+</body>
+</html>
